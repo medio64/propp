@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #526c51;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.background{
+    background-color: #d0e0c8;
+}
+
+.title{
+    text-align: center;
+    color: rgb(76, 28, 221);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 16pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5%;
+}
+
+.button{
+    background-color: #D4E7C5;
+    height: 300px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    border: 3px solid #526c51;
+    border-radius: 17px;
+    cursor: pointer;
+    color: #738d64;
+    margin-top: 10px;
+}
+
+.button:hover{
+    background-color: #a4ba96;
+    transition: all 0.7s ease;
+    color: #fff;
+    -webkit-text-stroke: 0px #526c51;
+    font-weight: bold;
+}
+
+.prop_button{
+    background-color: #D4E7C5;
+    height: 200px;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    border: 3px solid #526c51;
+    border-radius: 17px;
+    cursor: pointer;
+    color: #738d64;
+    margin-top: 10px;
+    text-align: left;
+    padding: 0 0 0 15px;
+    font-size: 35px;
+
+}
+
+.prop_button:hover{
+    background-color: #a4ba96;
+    transition: all 0.7s ease;
+    color: #fff;
+    -webkit-text-stroke: 0px #526c51;
+    font-weight: bold;
+}
+
+.pay_button{
+    background-color: #D4E7C5;
+    height: 90px;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    font-size: 50px;
+    border: 3px solid #526c51;
+    border-radius: 17px;
+    cursor: pointer;
+    color: #738d64;
+    margin-top: 15px;
+    font-size: 35px;
+}
+
+.pay_button:hover{
+    background-color: #a4ba96;
+    transition: all 0.7s ease;
+    color: #fff;
+    -webkit-text-stroke: 0px #526c51;
+    font-weight: bold;
+}
+
+
+.logo{
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
+    -webkit-text-stroke: 1.7px black;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+}
